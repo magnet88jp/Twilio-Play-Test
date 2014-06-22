@@ -13,7 +13,8 @@ import com.twilio.sdk.client.TwilioCapability
  */
 object TwilioAPI {
 
-  private val PHONE_FROM = "+441473379566"
+//  private val PHONE_FROM = "+441473379566"
+  private val PHONE_FROM = "+815031540330"
 
   def sendSMS(sid: String, token: String, to: String, msg: String) = Try {
     Logger.info(s"Sending SMS to $to with text $msg")
